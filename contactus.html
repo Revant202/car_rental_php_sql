@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/cont.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Playfair Display", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #4158d0;
+        background-image: linear-gradient(
+          43deg,
+          #4158d0 0%,
+          #c850c0 46%,
+          #ffcc70 100%
+        );
+      }
+
+      .contact {
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+        background-color: rgba(18, 25, 44, 0.9);
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+        max-width: 800px;
+        width: 100%;
+      }
+
+      .contact h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .contact .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .contact .box {
+        width: 300px;
+        margin: 10px;
+        padding: 20px;
+        background-color: #12192c;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+      }
+
+      .contact .box .text h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .contact .box .text p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      .contactForm {
+        width: 400px;
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #12192c;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+      }
+
+      .contactForm h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .contactForm .inputBox {
+        margin-bottom: 20px;
+      }
+
+      .contactForm .inputBox input,
+      .contactForm .inputBox textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        background-color: #222;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+      }
+
+      .contactForm .inputBox input:focus,
+      .contactForm .inputBox textarea:focus {
+        outline: none;
+      }
+
+      .contactForm .inputBox input::placeholder,
+      .contactForm .inputBox textarea::placeholder {
+        color: #777;
+      }
+
+      .contactForm .inputBox input[type="submit"],
+      .contactForm .inputBox button {
+        width: 150px;
+        background: orange;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+      }
+
+      .contactForm .inputBox button a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .contactForm .inputBox button:hover {
+        background: #ff7200;
+      }
+    </style>
+    <title>CaRs | Coming Soon</title>
+  </head>
+  <body>
+    <section class="contact">
+      <div class="content">
+        <h1><b>CONTACT US</b></h1>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-phone-alt" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>Coming Soon</p>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form></form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
